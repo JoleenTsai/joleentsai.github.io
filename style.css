@@ -127,14 +127,15 @@ body {
       text-decoration: none;
   }
 
-  .projectCards {
+  /* .projectCards {
       margin: 15px;
-  }
+  } */
 
   h5 {
       font-family: 'Josefin Slab', serif;
       font-weight: bold;
       width: 620px;
+      font-size: 16px;
   }
 
   .card-text {
