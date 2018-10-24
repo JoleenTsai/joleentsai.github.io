@@ -112,35 +112,33 @@ body {
   }
   
   /* portfolio page */
-
   .projectCaptions {
-      background-color: #beffde;
+      font-family: 'Josefin Slab', serif;
+      background-color: #c6fae0;
       color: #474646;
       opacity: .5 !important;
       display: block;
       text-align: center;
       margin-bottom: 20px;
+      text-decoration: none;
+
   }
   .projectCaptions:hover {
       background-color: #beffde;
       color: black;
+      font-weight: bolder;
       opacity: .8;
       text-decoration: none;
   }
-
-  .projectCards {
-      margin-top: 20px;
-      margin-right: auto;
-      margin-left: auto;
-  }
-
   h5 {
       font-family: 'Josefin Slab', serif;
       font-weight: bold;
       width: 620px;
       font-size: 16px;
   }
-
+  .projectCards {
+    margin-top: 10px;
+  }
   .card-text {
     font-size: 14px;
     margin-bottom: 20px; 
