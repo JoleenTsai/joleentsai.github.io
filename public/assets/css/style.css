@@ -32,7 +32,9 @@
   .indexContainer {
     padding: 10px 0px 10px 0px;
   }
-
+  .headshot {
+    margin: 20px;
+  }
   /* ABOUT ME */
   .aboutMeContent {
     margin-top: 10px;
