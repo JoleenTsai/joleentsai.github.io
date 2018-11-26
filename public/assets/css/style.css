@@ -25,6 +25,12 @@
   }
   .footerIcon {
     margin: 0px 2px 0px 2px;
+    color: rgb(143, 209, 209);
+
+  }
+  .footerIcon:hover {
+    margin: 0px 2px 0px 2px;
+    color: rgb(141, 172, 230);
   }
   .lead {
     display: inline;
