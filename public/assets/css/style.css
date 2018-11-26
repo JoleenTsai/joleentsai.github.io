@@ -50,6 +50,9 @@
   .indexFont:hover {
     color: rgb(143, 209, 209);
   }
+  .indexFont:visited {
+    color: darkgrey;
+  }
   /* ABOUT ME */
   .aboutMeContent {
     margin-top: 10px;
