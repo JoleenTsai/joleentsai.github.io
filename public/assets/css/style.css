@@ -1,0 +1,97 @@
+.pageTitles {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 5px 0px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 36px;
+}
+.justify-content-center {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 12px;
+}
+.jumbotron {
+  background-image: url(../images/header_background.jpg);
+  font-family: 'Lora', serif;
+  background-size: 100%;
+}
+  footer {
+    padding: 10px 0;
+    clear: both;
+    font-size: 18px;
+    color: #ccc;
+    text-align: center;
+    border-top: .8px solid rgb(151, 151, 151);
+    height: 50px;
+  }
+  .footerIcon {
+    margin: 0px 2px 0px 2px;
+  }
+  .lead {
+    display: inline;
+  }
+  .indexContainer {
+    padding: 10px 0px 10px 0px;
+  }
+
+  /* ABOUT ME */
+  .aboutMeContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .aboutMeLinks {
+    font-family: 'Lora', serif;
+    color: rgb(143, 209, 209);
+  }
+  .aboutMeLinks:hover {
+    color: rgb(141, 172, 230);
+  }
+  /* PORTFOLIO */
+  #main-container {
+    /* min-height: calc(100vh - 70px); */
+    max-width: 960px;
+    height: 200px   ;
+    margin-bottom: 0px;
+  }
+   .projectCaptions {
+    font-family: 'Roboto Slab', serif;
+      background-color: #c6fae0;
+      color: #474646;
+      opacity: .5 !important;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+      text-decoration: none;
+
+  }
+  .projectCaptions:hover {
+      background-color: #beffde;
+      color: black;
+      font-weight: bolder;
+      opacity: .8;
+      text-decoration: none;
+  }
+  .card {
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+  }
+  .card-img-top {
+    height: 300px;
+  }
+  .card-deck {
+    margin: 0px 10px 15px 10px;
+  }
+  /* CONTACT */
+  .contactMe {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    padding: 10px;
+  }
+  .contactMeContent {
+    max-width: 75%;
+    font-size: 11px;
+  }
+
+  /* font-family: 'Roboto Slab', serif;
+font-family: 'Lora', serif;
+font-family: 'Noto Sans TC', sans-serif; */
