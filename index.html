@@ -1,78 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-    <title>Joleen Tsai</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JOLEEN TSAI</title>
+  <link rel="stylesheet" href="./public/assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans+TC|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/assets/css/style.css">
+  <!-- PARALLAX -->
+  <style>
+    .parallax1 {
+        background-image: url("./public/assets/images/leaf-horizontal.jpg");
+        height: 320px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: auto; */
+      }
+      .parallax2 {
+        background-image: url("./public/assets/images/underwater.jpg");
+        height: 320px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+      }
+    </style>
 </head>
 
 <body>
-
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light myHeader" style="background-color: #beffde;">
-        <a class="navbar-brand namebox" href="#">Joleen Tsai</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About
-                    <span class="sr-only">(current)</span>
-                </a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-
-            </div>
-        </div>
-    </nav>
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
-
-            <img src="images/Headshot.JPG" class="img-fluid float-left headshot" alt="Joleen Tsai">
-
-            <p>I am currently a student attending University of California, Irvine for The Coding Bootcamp.</p>
-            <p>Upon graduating from UCSB with a degree in Communications,
-            I have worked my way up in the hospitality industry to become a Sales Manager for several luxury resorts in Orange County, utilizing my communication skills,
-            work ethic, and attention to detail. However, with a background in HTML and CSS from personalizing websites as an adolescent and with brief experience as the e-Commerce
-            director at a small privately owned company, I am pursuing a career in the development industry. Through UCI, I have learned that as a full stack developer, I am resourceful, creative, and possess a
-            determination to thoroughly understand each problem to be able to debug the issue.</p>
-            
-           <p>I believe that my past work in the hotel industry and event planning has shaped me to become a collaborative worker,
-            who can excel in fast paced and stressful environments while thriving in group settings. Furthermore, my time as a
-            sales manager has taught me to complete all tasks with my deadline in mind, as well as keep my eye on the larger
-            scope of each project.</p> 
-            
-            <p>If you have any questions, please contact me directly at 949-547-3718 or joleenjtsai@gmail.com.</p>
-
-            <div class="row linkedIn">
-                <span>
-                    <a href="https://github.com/JoleenTsai" target="_blank">Github </a>|
-                    <a href="https://www.linkedin.com/in/joleen-tsai-0b5856124/" target="_blank"> LinkedIn</a>
-                </span>
-            </div>
-        </section>
-
+  <!-- TITLE/NAV -->
+  <h2 class="pageTitles">JOLEEN TSAI</h2>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</span></a>
+        </li>
+      </ul>
     </div>
-
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+  </nav>
+  <!-- PARALLAX -->
+  <div class="parallax1"></div>
+  <!-- HEADER IMAGE -->
+  <div class="Jumbotron-fluid text-center">
+    <div class="container indexContainer">
+      <p class="lead align-middle">COMMUNICATION | PASSION | LEARNING</p>
+    </div>
+  </div>
+  <div class="parallax2"></div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="main-container">
+      <i class="fab fa-facebook-f footerIcon"></i>
+      <i class="fab fa-twitter footerIcon"></i>
+      <i class="fab fa-instagram footerIcon"></i>
+      <i class="fab fa-linkedin-in footerIcon"></i>
+      <i class="fas fa-envelope footerIcon"></i>
+    </div>
+  </footer>
+  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
