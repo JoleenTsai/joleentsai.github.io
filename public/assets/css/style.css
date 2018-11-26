@@ -43,6 +43,10 @@
     height: 70%;
     width: auto;
   }
+  /* INDEX */
+  .indexFont:hover {
+    color: rgb(143, 209, 209);
+  }
   /* ABOUT ME */
   .aboutMeContent {
     margin-top: 10px;
@@ -89,7 +93,7 @@
     height: 300px;
   }
   .card-deck {
-    margin: 0px 10px 15px 10px;
+    margin: 0px 10px 30px 10px;
   }
   /* CONTACT */
   .contactMe {
