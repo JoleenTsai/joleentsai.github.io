@@ -41,7 +41,7 @@
   .headshot {
     margin: 20px;
     height: 70%;
-    width: auto;
+    /* width: auto; */
   }
   /* INDEX */
   .indexFont {
